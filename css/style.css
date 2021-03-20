@@ -560,6 +560,43 @@ break {
     justify-content: space-around;
 }
 
+footer .nav {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-list {
+    display: flex;
+    margin-left: 200px;
+}
+
+.footer-link,
+.footer-item a {
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #000;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 /* .left {
     width: 30%;
