@@ -406,6 +406,11 @@ break {
     letter-spacing: -0.656526px;
 }
 
+.section-5 {
+    height: 700px;
+    background-image: url(../img/img-BG-5.png);
+}
+
 
 /* .left {
     width: 30%;
