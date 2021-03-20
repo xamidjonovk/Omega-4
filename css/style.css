@@ -407,8 +407,157 @@ break {
 }
 
 .section-5 {
+    display: flex;
+    align-items: center;
     height: 700px;
     background-image: url(../img/img-BG-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s5 {
+    width: 40%;
+    margin-left: 120px;
+}
+
+.s5 .heading-2 {
+    color: white;
+}
+
+.s5 .paragraph {
+    margin: 30px 0;
+    color: white;
+    font-size: 21px;
+    line-height: 39px;
+    /* or 186% */
+    letter-spacing: -0.656526px;
+}
+
+.section-6 {
+    background-color: #F7F7FB;
+}
+
+.section-6 p {
+    margin-top: 20px;
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #696871;
+}
+
+.heading-box-6 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-box-6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box-6 p {
+    color: black;
+}
+
+.box-6-1 {
+    background-color: #fff;
+    width: 46%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.person img {
+    width: 40px;
+    height: 40px;
+}
+
+.p-6 {
+    margin-bottom: 20px;
+}
+
+.name-6 {
+    margin: 0;
+    padding-top: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+#company-6 {
+    margin: 0;
+    padding-top: 5px;
+    color: #696871;
+}
+
+.p-info p {
+    font-size: 16px !important;
+}
+
+.img-6 {
+    margin-right: 15px;
+}
+
+.section-6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.slider-list {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-item {
+    height: 8px;
+    width: 8px;
+    background-color: #9f9fdb;
+    margin-left: 5px;
+    display: block;
+    border-radius: 12px;
+    transition: all 1s;
+}
+
+.n1 {
+    height: 8px;
+    width: 30px;
+    background-color: #5454D4;
+    margin-left: 5px;
+    transition: width 2s ease-in-out;
+}
+
+.slider-item:hover {
+    /* transform: scaleX(5); */
+    width: 30px;
+    transform-origin: left;
+    background-color: #5454D4;
+}
+
+.section-7 {
+    background: #5454D4;
+    height: 340px;
+}
+
+.s7 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
